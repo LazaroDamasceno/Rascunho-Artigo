@@ -1,15 +1,11 @@
-[1] Config.pm:328> INFO - This is Biber 2.21
-[2] Config.pm:331> INFO - Logfile is 'main.blg'
-[273] biber-MSWIN64:342> INFO - === 
-[350] Biber.pm:421> INFO - Reading 'main.bcf'
-[701] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
-[757] Biber.pm:4487> INFO - Processing section 0
-[783] Biber.pm:4678> INFO - Looking for bibtex file 'ref.bib' for section 0
-[869] bibtex.pm:1713> INFO - LaTeX decoding ...
-[882] bibtex.pm:1519> INFO - Found BibTeX data source 'ref.bib'
-[981] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[981] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[981] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[981] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[987] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[989] bbl.pm:779> INFO - Output to main.bbl
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'main.blg'
+[284] biber-MSWIN64:342> INFO - === 
+[359] Biber.pm:421> INFO - Reading 'main.bcf'
+[680] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
+[732] Biber.pm:4487> INFO - Processing section 0
+[759] Biber.pm:4678> INFO - Looking for bibtex file 'ref.bib' for section 0
+[841] bibtex.pm:1713> INFO - LaTeX decoding ...
+[852] bibtex.pm:1519> INFO - Found BibTeX data source 'ref.bib'
+[866] Utils.pm:479> ERROR - BibTeX subsystem: C:\Users\lazar\AppData\Local\Temp\biber_tmp_MVp0\e800e2552f53b910154f366d4c3730d7_6244.utf8, line 4, syntax error: found "title", expected end of entry ("}" or ")") (skipping to next "@")
+[867] Biber.pm:137> INFO - ERRORS: 1
