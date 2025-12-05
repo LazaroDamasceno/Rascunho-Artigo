@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.4)  4 DEC 2025 22:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.4)  5 DEC 2025 00:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1181,6 +1181,16 @@ line 9.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 10.0pt on input line 9.
+<figuras/projecao_jovens_idosos.png, id=44, 860.4948pt x 570.933pt>
+File: figuras/projecao_jovens_idosos.png Graphic file (type png)
+<use figuras/projecao_jovens_idosos.png>
+Package pdftex.def Info: figuras/projecao_jovens_idosos.png  used on input line
+ 16.
+(pdftex.def)             Requested size: 860.49269pt x 570.9316pt.
+
+LaTeX Warning: Citation 'ibge_projecao_populacao' on page 3 undefined on input 
+line 17.
+
 )
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1191,7 +1201,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3
 
- <./figuras/projecao_populacao_br.png>] (main.aux (figuras_grandes.aux))
+ <./figuras/projecao_populacao_br.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4 <./figuras/projecao_jovens_idosos.png>] (main.aux (figuras_grandes.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
@@ -1212,19 +1230,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28155 strings out of 467870
- 496883 string characters out of 5418355
- 1300145 words of memory out of 5000000
- 56641 multiletter control sequences out of 15000+600000
+ 28169 strings out of 467870
+ 497361 string characters out of 5418355
+ 1300227 words of memory out of 5000000
+ 56653 multiletter control sequences out of 15000+600000
  660791 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,11n,79p,695b,1692s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.p
 fb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.
 pfb>
-Output written on main.pdf (3 pages, 455232 bytes).
+Output written on main.pdf (4 pages, 688132 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 54 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 72 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 59 words of extra memory for PDF output out of 10000 (max. 10000000)
 
