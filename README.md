@@ -1,1 +1,0 @@
-# Artigo-Perfil-Eleitoral-BR
