@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.13)  14 DEC 2025 02:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.13)  14 DEC 2025 02:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -960,7 +960,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 \@quotereset=\count470
 (main.aux
 Package babel Info: 'brazil' activates 'portuges' shorthands.
-(babel)             Reported on input line 9.
+(babel)             Reported on input line 19.
  (figuras_grandes.aux))
 \openout1 = `main.aux'.
 
@@ -1208,17 +1208,15 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 10.95pt on input line 38.
 
-(introducao.tex
+(perfilamento.tex
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 17.28pt on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 17.28pt on input line 1.
-) (referencial_teorico.tex) (perfilamento.tex [1
+ [1
 
 {C:/Users/lazar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/laza
-r/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}]) (result
-ado.tex)
-(conclusao.tex)
+r/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}])
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
 (Font)              scaled to size 12.0pt on input line 52.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
@@ -1279,7 +1277,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout2 = `figuras_grandes.aux'.
 
  (figuras_grandes.tex
-<analise_dados/projecao_populacao/projecao_populacao_ano.png, id=59, 1004.7939p
+<analise_dados/projecao_populacao/projecao_populacao_ano.png, id=43, 1004.7939p
 t x 715.473pt>
 File: analise_dados/projecao_populacao/projecao_populacao_ano.png Graphic file 
 (type png)
@@ -1289,8 +1287,8 @@ o.png  used on input line 8.
 (pdftex.def)             Requested size: 1004.79144pt x 715.47127pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 9.
-<analise_dados/projecao_populacao/projecao_populacao_grupo_etario_ano.png, id=6
-2, 1004.553pt x 715.473pt>
+<analise_dados/projecao_populacao/projecao_populacao_grupo_etario_ano.png, id=4
+6, 1004.553pt x 715.473pt>
 File: analise_dados/projecao_populacao/projecao_populacao_grupo_etario_ano.png 
 Graphic file (type png)
 <use analise_dados/projecao_populacao/projecao_populacao_grupo_etario_ano.png>
@@ -1321,26 +1319,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D4D8AEAD76496D4141C2C124636C41E2;789.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: B2FC0D5F23C3E3BC38FA3EEADE95F38D;355
+(rerunfilecheck)             After:  D1FE8151203C8477D9C8C471D886FC90;301.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28875 strings out of 467870
- 513636 string characters out of 5418354
+ 28835 strings out of 467870
+ 512696 string characters out of 5418354
  1397625 words of memory out of 5000000
- 57340 multiletter control sequences out of 15000+600000
+ 57316 multiletter control sequences out of 15000+600000
  675581 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,11n,79p,695b,2850s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.p
 fb><C:/Users/lazar/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.
 pfb>
-Output written on main.pdf (4 pages, 875475 bytes).
+Output written on main.pdf (4 pages, 872242 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 59 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 74 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 27 words of extra memory for PDF output out of 10000 (max. 10000000)
 
