@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.24)  26 DEC 2025 23:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.28)  28 DEC 2025 04:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./main.tex
 (main.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-11-06>
+L3 programming layer <2025-12-24>
 (/home/dam/.miktex/texmfs/install/tex/latex/base/article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (/home/dam/.miktex/texmfs/install/tex/latex/base/size12.clo
@@ -32,23 +32,23 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 )
 (/home/dam/.miktex/texmfs/install/tex/generic/babel/babel.sty
-Package: babel 2025/11/09 v25.15 The multilingual framework for LuaLaTeX, pdfLa
+Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLa
 TeX and XeLaTeX
 \babel@savecnt=\count283
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2050.
+ne 2068.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2052.
+ne 2070.
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2054.
+e 2072.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2055.
+e 2073.
 LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2056.
+on input line 2074.
 LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2058.
+on input line 2076.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2083.
+on input line 2101.
 \U@D=\dimen149
 \l@unhyphenated=\language79
 
@@ -57,7 +57,7 @@ on input line 2083.
 \bbl@dirlevel=\count284
 Package babel Info: Configuration files are deprecated, as
 (babel)             they can break document portability.
-(babel)             Reported on input line 4175.
+(babel)             Reported on input line 4196.
 
 *************************************
 * Local config file bblopts.cfg used
@@ -71,10 +71,10 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 
 Package babel Warning: Name 'brazil' is deprecated.
 (babel)                Use 'brazilian' instead.
-(babel)                Reported on input line 4298.
+(babel)                Reported on input line 4320.
 
 Package babel Info: Importing font and identification data for brazil
-(babel)             from babel-pt-BR.ini. Reported on input line 4298.
+(babel)             from babel-pt-BR.ini. Reported on input line 4320.
 (/home/dam/.miktex/texmfs/install/tex/latex/babel-portuges/brazilian.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
@@ -89,7 +89,7 @@ pport for TeXGyreTermesX
 nd its extensions (msharpe)
 (/home/dam/.miktex/texmfs/install/tex/latex/xpatch/xpatch.sty
 (/home/dam/.miktex/texmfs/install/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-11-06 L3 programming layer (loader) 
+Package: expl3 2025-12-24 L3 programming layer (loader) 
 
 (/home/dam/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
@@ -724,7 +724,7 @@ File: biblatex.cfg
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2025-11-06 L3 programming layer (loader) 
+(biblatex)             2025-12-24 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
@@ -1203,16 +1203,16 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28531 strings out of 467872
- 500916 string characters out of 5424217
- 1391504 words of memory out of 5000000
- 57008 multiletter control sequences out of 15000+600000
+ 28537 strings out of 467872
+ 500802 string characters out of 5424217
+ 1390617 words of memory out of 5000000
+ 57014 multiletter control sequences out of 15000+600000
  660791 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,6n,79p,695b,2850s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/dam/.miktex/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></home/da
 m/.miktex/texmfs/install/fonts/type1/public/newtx/ztmr.pfb>
-Output written on main.pdf (1 page, 78326 bytes).
+Output written on main.pdf (1 page, 76783 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
