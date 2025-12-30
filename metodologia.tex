@@ -4,9 +4,13 @@ Python foi a linguagem escolhida para o análise de dados. As bibliotecas polars
 
 O ambiente de desenvolvimento foi o Anaconda na sua versão reduzida -- o miniconda. Foi criado um ambiente virtual no miniconda chamado etl\_eda\_ml para que as bibliotecas do python pudessem ser instaladas.
 
-A escolha reflete as etapas usadas fundamentais e imprescindíveis para a análise de dados: ETL, EDA e ML.
+Fora do ambiente, para lidar com arquivos grandes e pesados, que não são comportados pelo polars, usou-se a Apache Spark na sua versão python via a plataforma Databricks, constante na URL \url{https://www.databricks.com/br}.
 
-Como passo incial o ETL (Extract-Transform-Load)  engloba a extração dos dados de sua fonte, as transformaçoes necessários para esses estejam funcionais e o seu carregamento para a etapa seguinte, a EDA. 
+Nos casos em que o Databrick foi usado, a etapa de ETL (Extract-Transform-Load) foi ocorreu nele, e com os dados transformados e adequados, transformou-se os arquivos grandes e pesados para o tipo parquet. A mudança promete redução de, no mínimo, 90\% do tamanho original. 
+
+Complementarmente, a escolha do nome do ambiente virtual no miniconda reflete as etapas usadas fundamentais e imprescindíveis para a análise de dados: ETL, EDA e ML.
+
+Como passo incial o ETL engloba a extração dos dados de sua fonte, as transformaçoes necessários para esses estejam funcionais e o seu carregamento para a etapa seguinte, a EDA. 
 
 Esta significa análise exploratória de dados. Ela é de suma importância, pois permite descobrir detalhes que apenas recorrendo às abordagens univariada, bivariada e multivariada, poderiam ser notadas.
 
@@ -28,9 +32,18 @@ No contexto do uso do PCA, a redução da dimensionalidade não é mecânica; el
 
 A interpretação dos resultados gerados pelo uso do PCA é de responsabilidade única do analista, pois o algoritmo apenas oferece resultados matematicamente calculados. Assim, interpretar a distribuição dos  pontos exige conhecimento técnico necessário para identificar se o KMeans ou o DBSCAN é o mais adequado para os dados do serviço militar.
 
+Os dados usados do serviço militar foram extraída do Portal de Dados Abertos do Governo Federal na URL \url{https://dados.gov.br/dados/conjuntos-dados/servico-militar}. O ínicio da inclusão no Portal é no ano de 2007 até 2024 (até 30/dez/2025). São 18 anos de registro de dados do serviço militar.
+
 ???
 
-Todas as figuras do Apêndice \ref{ibge_projecao_populacao} tem 15x10 polegada. No matplotlib, o tamanho da figura envolve a escolha da largura e da altura, ambas em polegadas, respectivamente.
+Os dados usados para o desenvolvimento das figuras do Apêndice \ref{ibge_projecao_populacao} foram retirados do Instituto Brasileiro de Geografia e Estatística (IBGE). Este fez a projeção da população brasileira desde o ano 2000 até 2070,com a última atualizção da projeção em 2024. Os dados da projeção constam na URL \url{https://www.ibge.gov.br/estatisticas/sociais/populacao/9109-projecao-da-populacao.html}.
 
-Os dados usados para o desenvolvimento das figuras foi retirado do Instituto Brasileiro de Geografia e Estatística (IBGE)\footnote{\url{https://www.ibge.gov.br/estatisticas/sociais/populacao/9109-projecao-da-populacao.html}}. Este fez a projeção da população brasileira desde o ano 2000 até 2070,com a última atualizção da projeção em 2024.
+Todas as figuras do Apêndice \ref{ibge_projecao_populacao} tem 15x10 polegada. No matplotlib, o tamanho da figura envolve a escolha da largura e da altura, ambas em polegadas, respectivamente. 
+
+A escolha de colocar as figuras ligadas aos dados do IBGE foi motivada pelo período de 71 anos de projeção, que resulta em números na vertical no eixo X muito próximos uns dos outros. 
+
+Como consequência disto, visando melhorar a leitura das figuras do Apêndice \ref{ibge_projecao_populacao}, optou-se por uma tamanho largo e grande o suficiente, que resulte em uma figura dimensionada para caber na sozinha página. 
+
+Assim, o tamanho 15x10 polegadas, haja vista que 1 polegada tem 2,54 cm, o tamanho de 38,1 cm para a largura e 25,4 cm para a altura foi considerado adequado para a leitura das figuras do Apêndice \ref{ibge_projecao_populacao}.
+
 
