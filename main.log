@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.29)  30 DEC 2025 00:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.29)  30 DEC 2025 00:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1196,14 +1196,23 @@ exmfs/install/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}]
 \openout2 = `figuras_grandes.aux'.
 
  (figuras_grandes.tex
-<analise_dados/projecao_populaco_ibge/projecao_populacao_ano_sexo.png, id=38, 8
-59.7721pt x 451.6875pt>
+<analise_dados/projecao_populaco_ibge/projecao_populacao_ano_sexo.png, id=38, 1
+076.5821pt x 749.199pt>
 File: analise_dados/projecao_populaco_ibge/projecao_populacao_ano_sexo.png Grap
 hic file (type png)
 <use analise_dados/projecao_populaco_ibge/projecao_populacao_ano_sexo.png>
 Package pdftex.def Info: analise_dados/projecao_populaco_ibge/projecao_populaca
 o_ano_sexo.png  used on input line 8.
-(pdftex.def)             Requested size: 859.76999pt x 451.68639pt.
+(pdftex.def)             Requested size: 1076.57948pt x 749.19717pt.
+<analise_dados/projecao_populaco_ibge/projecao_populacao_ano_grupo_etario.png, 
+id=40, 1076.3412pt x 714.2685pt>
+File: analise_dados/projecao_populaco_ibge/projecao_populacao_ano_grupo_etario.
+png Graphic file (type png)
+<use analise_dados/projecao_populaco_ibge/projecao_populacao_ano_grupo_etario.p
+ng>
+Package pdftex.def Info: analise_dados/projecao_populaco_ibge/projecao_populaca
+o_ano_grupo_etario.png  used on input line 15.
+(pdftex.def)             Requested size: 1076.33858pt x 714.26675pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1214,29 +1223,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2
 
-]
-Overfull \vbox (170.3171pt too high) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[3 <./analise_dados/projecao_populaco_ibge/projecao_populacao_ano_sexo.png>]
-<analise_dados/projecao_populaco_ibge/projecao_populacao_ano_grupo_etario.png, 
-id=50, 1076.3412pt x 714.2685pt>
-File: analise_dados/projecao_populaco_ibge/projecao_populacao_ano_grupo_etario.
-png Graphic file (type png)
-<use analise_dados/projecao_populaco_ibge/projecao_populacao_ano_grupo_etario.p
-ng>
-Package pdftex.def Info: analise_dados/projecao_populaco_ibge/projecao_populaca
-o_ano_grupo_etario.png  used on input line 15.
-(pdftex.def)             Requested size: 1076.33858pt x 714.26675pt.
+ <./analise_dados/projecao_populaco_ibge/projecao_populacao_ano_sexo.png>]
 <analise_dados/projecao_populaco_ibge/projecao_populacao_ano_grupo_etario_homen
-s.png, id=51, 1076.3412pt x 714.2685pt>
+s.png, id=47, 1076.3412pt x 714.2685pt>
 File: analise_dados/projecao_populaco_ibge/projecao_populacao_ano_grupo_etario_
 homens.png Graphic file (type png)
 <use analise_dados/projecao_populaco_ibge/projecao_populacao_ano_grupo_etario_h
@@ -1252,10 +1241,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4 <./analise_dados/projecao_populaco_ibge/projecao_populacao_ano_grupo_etario.
+[3 <./analise_dados/projecao_populaco_ibge/projecao_populacao_ano_grupo_etario.
 png>]
 <analise_dados/projecao_populaco_ibge/projecao_populacao_ano_grupo_etario_mulhe
-res.png, id=58, 1076.3412pt x 714.2685pt>
+res.png, id=54, 1076.3412pt x 714.2685pt>
 File: analise_dados/projecao_populaco_ibge/projecao_populacao_ano_grupo_etario_
 mulheres.png Graphic file (type png)
 <use analise_dados/projecao_populaco_ibge/projecao_populacao_ano_grupo_etario_m
@@ -1271,7 +1260,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5 <./analise_dados/projecao_populaco_ibge/projecao_populacao_ano_grupo_etario_
+[4 <./analise_dados/projecao_populaco_ibge/projecao_populacao_ano_grupo_etario_
 homens.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1280,7 +1269,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6 <./analise_dados/projecao_populaco_ibge/projecao_populacao_ano_grupo_etario_
+[5 <./analise_dados/projecao_populaco_ibge/projecao_populacao_ano_grupo_etario_
 mulheres.png>] (main.aux (figuras_grandes.aux))
  ***********
 LaTeX2e <2025-11-01>
@@ -1293,8 +1282,8 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28644 strings out of 467872
- 506156 string characters out of 5424217
+ 28643 strings out of 467872
+ 506150 string characters out of 5424217
  1393537 words of memory out of 5000000
  57104 multiletter control sequences out of 15000+600000
  660791 words of font info for 73 fonts, out of 8000000 for 9000
@@ -1302,9 +1291,9 @@ Here is how much of TeX's memory you used:
  74i,11n,79p,695b,2850s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/dam/.miktex/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></home/da
 m/.miktex/texmfs/install/fonts/type1/public/newtx/ztmr.pfb>
-Output written on main.pdf (6 pages, 1451774 bytes).
+Output written on main.pdf (5 pages, 1611738 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
+ 83 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
  77 words of extra memory for PDF output out of 10000 (max. 10000000)
 
