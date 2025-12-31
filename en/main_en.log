@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.30)  31 DEC 2025 01:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.30)  31 DEC 2025 01:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./main.tex
-(main.tex
+**./main_en.tex
+(main_en.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
 (/home/dam/.miktex/texmfs/install/tex/latex/base/article.cls
@@ -882,8 +882,8 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 30.
 \@quotelevel=\count467
 \@quotereset=\count468
- (main.aux)
-\openout1 = `main.aux'.
+ (main_en.aux)
+\openout1 = `main_en.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 30.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
@@ -1021,18 +1021,18 @@ File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `main.bcf'.
+\openout3 = `main_en.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
+Package biblatex Info: ... file 'main_en.bbl' found.
 
-(main.bbl)
+(main_en.bbl)
 Package biblatex Info: Reference section=0 on input line 30.
 Package biblatex Info: Reference segment=0 on input line 30.
 Package hyperref Info: Link coloring OFF on input line 30.
- (main.out) (main.out)
+ (main_en.out) (main_en.out)
 \@outlinefile=\write4
-\openout4 = `main.out'.
+\openout4 = `main_en.out'.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 20.74pt on input line 35.
@@ -1114,37 +1114,135 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 36.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 10.95pt on input line 36.
+ (methodology.tex
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 17.28pt on input line 1.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 17.28pt on input line 1.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.9 ... ambiente virtual no miniconda chamado etl_
+                                                  eda_ml para que
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 12.0pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 8.8pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 9.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 12.0pt on input line 9.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 8.8pt on input line 9.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 6.6pt on input line 9.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 12.0pt on input line 9.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 8.8pt on input line 9.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 6.6pt on input line 9.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 12.0pt on input line 9.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 8.8pt on input line 9.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 9.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 12.0pt on input line 9.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 8.8pt on input line 9.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 6.6pt on input line 9.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 12.0pt on input line 9.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 8.8pt on input line 9.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 6.6pt on input line 9.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 12.0pt on input line 9.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 8.8pt on input line 9.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 6.6pt on input line 9.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 12.0pt on input line 9.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 8.8pt on input line 9.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 6.6pt on input line 9.
+
+LaTeX Warning: Command \~ invalid in math mode on input line 11.
 
 
-LaTeX Warning: Empty bibliography on input line 44.
+LaTeX Warning: Command \' invalid in math mode on input line 11.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 12.
+
+)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.45 	
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ã in font ntx-Regular-tlf-ot1!
+Missing character: There is no á in font ntx-Regular-tlf-ot1!
+Missing character: There is no ã in font ntx-Regular-tlf-ot1!
+
+Overfull \hbox (521.90407pt too wide) in paragraph at lines 8--45
+\T1/ntxtlf/m/n/12 conda. Foi cri-ado um am-bi-ente vir-tual no mini-conda chama
+do etl$[]\OML/ntxmi/m/it/12 da[]lparaqueasbibliotecasdopythonpudessemserinstala
+das:CasoPythonnosejasuficienteparalidarcomosarquivos; usar \LMS/ntxsy/m/n/12 ^^
+@
+ []
+
+
+Overfull \hbox (10.53189pt too wide) in paragraph at lines 8--45
+\OML/ntxmi/m/it/12 se \LMS/ntxsy/m/n/12 ^^@ \OML/ntxmi/m/it/12 oApacheSparknasu
+aversoPythonviaaplataformaDatabricks; constantenaURL$ 
+ []
+
+
+LaTeX Warning: Empty bibliography on input line 46.
 
 [1
 
 {/home/dam/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/dam/.miktex/t
-exmfs/install/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}] (main.aux)
+exmfs/install/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}] (main_en.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
+Package rerunfilecheck Info: File `main_en.out' has not changed.
+(rerunfilecheck)             Checksum: 19D62912D0AA8536FA36363DC63A68B0;98.
+Package logreq Info: Writing requests to 'main_en.run.xml'.
+\openout1 = `main_en.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27582 strings out of 467872
- 482776 string characters out of 5424217
- 1386696 words of memory out of 5000000
- 56100 multiletter control sequences out of 15000+600000
- 655053 words of font info for 71 fonts, out of 8000000 for 9000
+ 27627 strings out of 467872
+ 483564 string characters out of 5424217
+ 1390705 words of memory out of 5000000
+ 56135 multiletter control sequences out of 15000+600000
+ 674839 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,6n,101p,695b,5177s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/dam/.miktex/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></home/da
-m/.miktex/texmfs/install/fonts/type1/public/newtx/ztmr.pfb>
-Output written on main.pdf (1 page, 68182 bytes).
+ 74i,6n,101p,698b,5177s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/dam/.miktex/texmfs/install/fonts/type1/public/newtx/NewTXMI.pfb></home
+/dam/.miktex/texmfs/install/fonts/type1/public/newtx/txsys.pfb></home/dam/.mikt
+ex/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></home/dam/.miktex/texmfs/i
+nstall/fonts/type1/public/newtx/ztmr.pfb>
+Output written on main_en.pdf (1 page, 96712 bytes).
 PDF statistics:
- 22 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 37 PDF objects out of 1000 (max. 8388607)
+ 3 named destinations out of 1000 (max. 500000)
+ 9 words of extra memory for PDF output out of 10000 (max. 10000000)
 
