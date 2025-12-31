@@ -59,9 +59,10 @@
       <file>apa.bbx</file>
       <file>apa.cbx</file>
       <file>biblatex.cfg</file>
-      <file>brazilian.lbx</file>
-      <file>brazilian-apa.lbx</file>
-      <file>brazil.lbx</file>
+      <file>english.lbx</file>
+      <file>american.lbx</file>
+      <file>american-apa.lbx</file>
+      <file>english-apa.lbx</file>
     </requires>
   </internal>
   <external package="biblatex" priority="5" active="0">

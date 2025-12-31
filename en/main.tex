@@ -1,7 +1,6 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc} 
 \usepackage[T1]{fontenc}       
-\usepackage[brazil]{babel}
 \usepackage{newtxtext,newtxmath}
 \usepackage{geometry}
 \geometry{a4paper,top=2.5cm,bottom=2.5cm,left=3cm,right=3cm}
@@ -18,7 +17,6 @@
 	backend=biber, 
 	natbib=true
 ]{biblatex}
-\DeclareLanguageMapping{brazil}{brazil-apa}
 \addbibresource{ref.bib}
 \usepackage{hyperref}
 \usepackage{pgffor}
@@ -31,7 +29,7 @@
 
 \begin{document}
 	
-	\title{(Rascunho de Artigo para à RAP/FGV) O Efeito do Envelhecimento Populacional no Serviço Militar}
+	\title{(Draft of a Paper) The Effects of an Aging Population on Military Recruitment and Retention}
 	\author{Lázaro Damasceno}
 	\maketitle
 	
@@ -43,16 +41,8 @@
 		Resumo em EN.
 	\end{abstract}
 	
-	\input{introducao}
-	\input{referencial_teorico}
-	\input{metodologia}
-	\input{analise_dados}
-	\input{resultado}
-	\input{conclusao}
-	
 	\printbibliography
 	
 	\appendix
-	\include{ibge_projecao_populacao}
 	
 \end{document}
