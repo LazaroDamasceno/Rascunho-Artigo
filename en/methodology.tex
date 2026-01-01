@@ -1,12 +1,54 @@
 \section{Methodology}
 
-Python was the chosen programming language for data analysis. The packages Polars,
-Matplotlib, Scikit-learn, and Statsmodels were used for the initial data analysis, plotting figures, a posteriori data analysis with ML, and for the prediction of the Brazilian population beyond 2070 until 2100, respectively. The adopted Pyhon's version was the 3.13.11.
+\subsection{Programming Language For Data Analysis}
 
-The development environment was the Anaconda in its mini-version --  the miniconda.
+Python was selected as the programming language for data analysis. The libraries used included \textit{polars}, \textit{dask}, \textit{matplotlib}, \textit{scikit-learn}, and \textit{statsmodels}, distributed as follows:
 
-O ambiente de desenvolvimento foi o Anaconda na sua versão reduzida – o
-miniconda. Foi criado um ambiente virtual no miniconda chamado etl_eda_ml para que
-as bibliotecas do python pudessem ser instaladas.
-Caso Python não seja suficiente para lidar com os arquivos, usar-se-á o Apache
-Spark na sua versão Python via a plataforma Databricks, constante na URL
+\begin{longtable}{l p{6cm} p{5cm}} % Ajustado larguras para caber o texto longo
+	\caption{Selected Python Libraries} \label{tab:pylibraries}\\
+	\toprule
+	\textbf{Library} & \textbf{Used for} & \textbf{Used module} \\
+	\midrule
+	\endfirsthead
+	
+	\multicolumn{3}{c}{{\bfseries \tablename\ \thetable{} -- continued}} \\
+	\toprule
+	\textbf{Library} & \textbf{Used for} & \textbf{Used module} \\
+	\midrule
+	\endhead
+	
+	\midrule
+	\multicolumn{3}{r}{{\footnotesize Continued on next page}} \\
+	\endfoot
+	
+	\bottomrule
+	\endlastfoot
+	
+	Polars & Data analysis. & None \\ \addlinespace
+	Dask & Pythonic out-of-memory data analysis. & dataframe \\ \addlinespace
+	Matplotlib & Plotting figures. & pyplot \\ \addlinespace
+	
+	% Correção Scikit-learn: usando \\ para quebra de linha e \_ para os nomes
+	Scikit-learn & AI/ML. & preprocessing.StandardScaler, \\ 
+	& & preprocessing.RobustScaler, \\ 
+	& & preprocessing.OneHotEncoder, \\ 
+	& & compose.make\_column\_transformer, \\ 
+	& & cluster.KMeans or cluster.DBSCAN \\ \addlinespace
+	Statsmodels & Estimating statistical models, conducting tests, and exploring data. & tsa.arima.model.ARIMA \\
+\end{longtable}
+
+To ensure reproducibility and avoid conflicts with system-wide settings, Miniconda was used to manage the development environment.
+
+Within Miniconda, a dedicated environment named \texttt{etl\_eda\_ml} was created. All core packages were installed through the Conda package manager. Additionally, to enable Excel, CSV, and ODS file support in \textit{polars}, the \textit{fastexcel} engine was installed via the \texttt{conda-forge} channel.
+
+The analysis were implemented in Jupyter notebooks with the specified Conda environment.
+
+When Polars encountered bottlenecks, Dask was used to select variables by dropping unnecessary ones. This approach reduces the total data volume, allowing Polars to load the remaining data much faster.
+
+\subsection{Datasets}
+
+The selected datasets were the \textit{Predicted Populations of Brazil (2000-2070)}, made and shared by the Brazilian Census Office (BCO)\footnote{\url{https://www.ibge.gov.br/estatisticas/sociais/populacao/9109-projecao-da-populacao.html}}, and the \textit{Military Servive}, made and shared by the Brazilian Army (BA).\footnote{\url{https://dados.gov.br/dados/conjuntos-dados/servico-militar}}
+
+The Government data is published on the Brazilian Government Open Data Portal. The Portal was institutionalized by the Presidential Decree no. 8.777/2016.\footnote{\url{https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8777.htm}}
+
+

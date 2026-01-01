@@ -1,6 +1,6 @@
-\documentclass[12pt,a4paper]{article}
+ \documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc} 
-\usepackage[T1]{fontenc}       
+\usepackage[T1]{fontenc}        
 \usepackage{newtxtext,newtxmath}
 \usepackage{geometry}
 \geometry{a4paper,top=2.5cm,bottom=2.5cm,left=3cm,right=3cm}
@@ -8,14 +8,15 @@
 \onehalfspacing  
 \usepackage{indentfirst}
 \setlength{\parindent}{1.5cm}
-\usepackage{graphicx}       
+\usepackage{graphicx}        
 \usepackage{float}
 \usepackage{longtable}
+\usepackage{booktabs}
 \usepackage[
-	style=apa, 
-	sortcites=true, 
-	backend=biber, 
-	natbib=true
+style=apa, 
+sortcites=true, 
+backend=biber, 
+natbib=true
 ]{biblatex}
 \addbibresource{ref.bib}
 \usepackage{hyperref}
@@ -25,11 +26,10 @@
 \fancyhf{} 
 \fancyhead[R]{\thepage}
 \usepackage{chngcntr}
-%\counterwithin{figure}{section}
 
 \begin{document}
 	
-	\title{(Draft of a Paper) The Effects of an Aging Population on Military Recruitment and Retention}
+	\title{(Paper's Draft) The Effects of an Aging Population on Military Recruitment and Retention: A Data-Driven Analysis}
 	\author{Lázaro Damasceno}
 	\maketitle
 	
@@ -41,7 +41,12 @@
 		Resumo em EN.
 	\end{abstract}
 	
+	\input{introduction}
+	\input{theoretical_framework}
 	\input{methodology}
+	\input{discussion}
+	\input{results}
+	\input{final_remarks}
 	
 	\printbibliography
 	
