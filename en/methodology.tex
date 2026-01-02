@@ -51,7 +51,7 @@ The selected datasets were the \textit{Predicted Populations of Brazil (2000-207
 
 The Government data is published on the Brazilian Government Open Data Portal. The portal was institutionalized by the Presidential Decree no. 8.777/2016.\footnote{\url{https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8777.htm}}
 
-The military data includes 18 CSV files, whose total data volume is 4,9 GB. As Polars was slow to load them, Apacha Spark was used. The total number of columns was 22. 17 were selected. The reduction of the number of columns was 22,73\%. 
+The military data includes 18 CSV files, whose total data volume is 4,9 GB. As Polars was slow to load them, Apacha Spark was used. The total number of columns was 22. 13 were selected. The reduction of the number of columns was, more or less, 40,91\%. 
 
-The next step was turn the military data into parquet. 4,9 GB of data were reduced to 166 MB. In other words, the GB data was reduced 96,61\%. As the new transformed data is only 3,39\% of the original data, Polars can handle it.
+The next step was turn the military data into parquet. 4,9 GB of data were reduced to 143,6 MB. In other words, the GB data was reduced 97,07\%. As the new transformed data is only 2,93\% of the original data, Polars can handle it.
 
