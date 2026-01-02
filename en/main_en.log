@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.30)  1 JAN 2026 01:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.1)  1 JAN 2026 21:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -893,64 +893,64 @@ Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
 )
 LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line
- 32.
+ 30.
 
 (/home/dam/.miktex/texmfs/install/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 32.
+(Font)              scaled to size 12.0pt on input line 30.
 \@quotelevel=\count471
 \@quotereset=\count472
  (main_en.aux)
 \openout1 = `main_en.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 32.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 30.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 32.
+ 30.
 
 (/home/dam/.miktex/texmfs/install/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 30.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-32.
+30.
 
 (/home/dam/.miktex/texmfs/install/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 30.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 32.
+ 30.
 
 (/home/dam/.miktex/texmfs/install/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 30.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 32.
+e 30.
 
 (/home/dam/.miktex/texmfs/install/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 (/home/dam/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -975,8 +975,8 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@mv@tabular=\count479
 \c@mv@boldtabular=\count480
-LaTeX Info: Command `\dddot' is already robust on input line 32.
-LaTeX Info: Command `\ddddot' is already robust on input line 32.
+LaTeX Info: Command `\dddot' is already robust on input line 30.
+LaTeX Info: Command `\ddddot' is already robust on input line 30.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1047,93 +1047,93 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main_en.bbl' found.
 
 (main_en.bbl)
-Package biblatex Info: Reference section=0 on input line 32.
-Package biblatex Info: Reference segment=0 on input line 32.
-Package hyperref Info: Link coloring OFF on input line 32.
+Package biblatex Info: Reference section=0 on input line 30.
+Package biblatex Info: Reference segment=0 on input line 30.
+Package hyperref Info: Link coloring OFF on input line 30.
  (main_en.out) (main_en.out)
 \@outlinefile=\write4
 \openout4 = `main_en.out'.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 20.74pt on input line 37.
+(Font)              scaled to size 20.74pt on input line 35.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 37.
+(Font)              scaled to size 14.4pt on input line 35.
 LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
-e 37.
+e 35.
 
 (/home/dam/.miktex/texmfs/install/tex/latex/newtx/ot1minntx.fd
 File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
 )
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 14.4pt on input line 37.
+(Font)              scaled to size 14.4pt on input line 35.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 10.5pt on input line 37.
+(Font)              scaled to size 10.5pt on input line 35.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 7.9pt on input line 37.
+(Font)              scaled to size 7.9pt on input line 35.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 14.4pt on input line 37.
+(Font)              scaled to size 14.4pt on input line 35.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 10.5pt on input line 37.
+(Font)              scaled to size 10.5pt on input line 35.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 7.9pt on input line 37.
+(Font)              scaled to size 7.9pt on input line 35.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 14.4pt on input line 37.
+(Font)              scaled to size 14.4pt on input line 35.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 10.5pt on input line 37.
+(Font)              scaled to size 10.5pt on input line 35.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 7.9pt on input line 37.
+(Font)              scaled to size 7.9pt on input line 35.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 14.4pt on input line 37.
+(Font)              scaled to size 14.4pt on input line 35.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 10.5pt on input line 37.
+(Font)              scaled to size 10.5pt on input line 35.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 7.9pt on input line 37.
+(Font)              scaled to size 7.9pt on input line 35.
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-37.
+35.
 
 (/home/dam/.miktex/texmfs/install/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 14.4pt on input line 37.
+(Font)              scaled to size 14.4pt on input line 35.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 10.5pt on input line 37.
+(Font)              scaled to size 10.5pt on input line 35.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 7.9pt on input line 37.
+(Font)              scaled to size 7.9pt on input line 35.
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-37.
+35.
 
 (/home/dam/.miktex/texmfs/install/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 14.4pt on input line 37.
+(Font)              scaled to size 14.4pt on input line 35.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 10.5pt on input line 37.
+(Font)              scaled to size 10.5pt on input line 35.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 7.9pt on input line 37.
+(Font)              scaled to size 7.9pt on input line 35.
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-37.
+35.
 
 (/home/dam/.miktex/texmfs/install/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 14.4pt on input line 37.
+(Font)              scaled to size 14.4pt on input line 35.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 10.5pt on input line 37.
+(Font)              scaled to size 10.5pt on input line 35.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 7.9pt on input line 37.
+(Font)              scaled to size 7.9pt on input line 35.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 14.4pt on input line 37.
+(Font)              scaled to size 14.4pt on input line 35.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 10.5pt on input line 37.
+(Font)              scaled to size 10.5pt on input line 35.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 7.9pt on input line 37.
+(Font)              scaled to size 7.9pt on input line 35.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 38.
+(Font)              scaled to size 10.95pt on input line 36.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.95pt on input line 38.
+(Font)              scaled to size 10.95pt on input line 36.
  (introduction.tex
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 17.28pt on input line 1.
@@ -1282,9 +1282,6 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.3pt on input line 50.
 ) (discussion.tex) (results.tex) (final_remarks.tex)
 
-LaTeX Warning: Empty bibliography on input line 53.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -1304,17 +1301,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main_en.out' has not changed.
 (rerunfilecheck)             Checksum: 6BE4290D1CC2E1D2C8531B47E1C3A1B6;990.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main_en
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main_en.run.xml'.
 \openout1 = `main_en.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27840 strings out of 467872
- 487618 string characters out of 5424217
- 1397646 words of memory out of 5000000
- 56315 multiletter control sequences out of 15000+600000
+ 28075 strings out of 467872
+ 492632 string characters out of 5424219
+ 1397779 words of memory out of 5000000
+ 56548 multiletter control sequences out of 15000+600000
  701941 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,11n,101p,698b,5177s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1322,9 +1328,9 @@ Here is how much of TeX's memory you used:
 /dam/.miktex/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></home/dam/.mikte
 x/texmfs/install/fonts/type1/public/newtx/ztmr.pfb></home/dam/.miktex/texmfs/in
 stall/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main_en.pdf (3 pages, 122267 bytes).
+Output written on main_en.pdf (3 pages, 127001 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
+ 90 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 

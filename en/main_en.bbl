@@ -16,5 +16,106 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{bonifacio2021projecoes}{report}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b2b92a7ac8847c903d187421c394e8c1}{%
+           family={Bonifácio},
+           familyi={B\bibinitperiod},
+           given={Gabriela},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d74220783e217956a83ada5f1bbd8549}{%
+           family={Guimarães},
+           familyi={G\bibinitperiod},
+           given={Raquel},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Instituto de Pesquisa Econômica Aplicada (Ipea)}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro}%
+      }
+      \strng{namehash}{4304d32e1fd8bfc66366b373da57f318}
+      \strng{fullhash}{4304d32e1fd8bfc66366b373da57f318}
+      \strng{fullhashraw}{4304d32e1fd8bfc66366b373da57f318}
+      \strng{bibnamehash}{4304d32e1fd8bfc66366b373da57f318}
+      \strng{authorbibnamehash}{4304d32e1fd8bfc66366b373da57f318}
+      \strng{authornamehash}{4304d32e1fd8bfc66366b373da57f318}
+      \strng{authorfullhash}{4304d32e1fd8bfc66366b373da57f318}
+      \strng{authorfullhashraw}{4304d32e1fd8bfc66366b373da57f318}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acessado em: 1 jan. 2026}
+      \field{title}{{TD 2698: Projeções Populacionais por Idade e Sexo para o Brasil até 2100}}
+      \field{type}{Texto para Discussão}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://repositorio.ipea.gov.br/handle/11058/10850
+      \endverb
+      \verb{url}
+      \verb https://repositorio.ipea.gov.br/handle/11058/10850
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{bonifacio2021projecoes}{report}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b2b92a7ac8847c903d187421c394e8c1}{%
+           family={Bonifácio},
+           familyi={B\bibinitperiod},
+           given={Gabriela},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d74220783e217956a83ada5f1bbd8549}{%
+           family={Guimarães},
+           familyi={G\bibinitperiod},
+           given={Raquel},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Instituto de Pesquisa Econômica Aplicada (Ipea)}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro}%
+      }
+      \strng{namehash}{4304d32e1fd8bfc66366b373da57f318}
+      \strng{fullhash}{4304d32e1fd8bfc66366b373da57f318}
+      \strng{fullhashraw}{4304d32e1fd8bfc66366b373da57f318}
+      \strng{bibnamehash}{4304d32e1fd8bfc66366b373da57f318}
+      \strng{authorbibnamehash}{4304d32e1fd8bfc66366b373da57f318}
+      \strng{authornamehash}{4304d32e1fd8bfc66366b373da57f318}
+      \strng{authorfullhash}{4304d32e1fd8bfc66366b373da57f318}
+      \strng{authorfullhashraw}{4304d32e1fd8bfc66366b373da57f318}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acessado em: 1 jan. 2026}
+      \field{title}{{TD 2698: Projeções Populacionais por Idade e Sexo para o Brasil até 2100}}
+      \field{type}{Texto para Discussão}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://repositorio.ipea.gov.br/handle/11058/10850
+      \endverb
+      \verb{url}
+      \verb https://repositorio.ipea.gov.br/handle/11058/10850
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
