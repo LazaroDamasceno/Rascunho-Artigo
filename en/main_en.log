@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.1)  2 JAN 2026 00:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.1)  2 JAN 2026 00:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1322,7 +1322,7 @@ Here is how much of TeX's memory you used:
 /dam/.miktex/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></home/dam/.mikte
 x/texmfs/install/fonts/type1/public/newtx/ztmr.pfb></home/dam/.miktex/texmfs/in
 stall/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main_en.pdf (3 pages, 123395 bytes).
+Output written on main_en.pdf (3 pages, 123389 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  16 named destinations out of 1000 (max. 500000)
