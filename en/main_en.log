@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.1)  2 JAN 2026 04:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.3)  3 JAN 2026 03:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1280,7 +1280,7 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 (Font)              scaled to size 5.5pt on input line 50.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.3pt on input line 50.
-) (discussion.tex
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1288,7 +1288,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2]) (results.tex) (final_remarks.tex)
+[2]) (discussion.tex) (results.tex) (final_remarks.tex)
 
 LaTeX Warning: Empty bibliography on input line 51.
 
@@ -1322,7 +1322,7 @@ Here is how much of TeX's memory you used:
 /dam/.miktex/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></home/dam/.mikte
 x/texmfs/install/fonts/type1/public/newtx/ztmr.pfb></home/dam/.miktex/texmfs/in
 stall/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main_en.pdf (3 pages, 123348 bytes).
+Output written on main_en.pdf (3 pages, 123594 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  16 named destinations out of 1000 (max. 500000)
