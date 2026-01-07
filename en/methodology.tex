@@ -2,49 +2,6 @@
 
 \subsection{Programming Language For Data Analysis}
 
-Python was selected as the programming language for data analysis. The libraries used included \textit{Polars}, \textit{Seaborn}, \textit{Matplotlib}, \textit{Scikit-learn}, and \textit{Statsmodels}, distributed as follows:
-
-\begin{longtable}{l p{6cm} p{5cm}} % Ajustado larguras para caber o texto longo
-	\caption{Selected Python Libraries} \label{tab:pylibraries}\\
-	\toprule
-	\textbf{Library} & \textbf{Used for} & \textbf{Used module} \\
-	\midrule
-	\endfirsthead
-	
-	\multicolumn{3}{c}{{\bfseries \tablename\ \thetable{} -- continued}} \\
-	\toprule
-	\textbf{Library} & \textbf{Used for} & \textbf{Used module} \\
-	\midrule
-	\endhead
-	
-	\midrule
-	\multicolumn{3}{r}{{\footnotesize Continued on next page}} \\
-	\endfoot
-	
-	\bottomrule
-	\endlastfoot
-	
-	Polars & Data analysis. & None \\ \addlinespace
-	Matplotlib & Plotting figures. & pyplot, ticker \\ \addlinespace
-	Seaborn & Plotting figures & None \\ \addlinespace
-	
-	% Correção Scikit-learn: usando \\ para quebra de linha e \_ para os nomes
-	Scikit-learn & AI/ML. & preprocessing.StandardScaler, \\ 
-	& & preprocessing.RobustScaler, \\ 
-	& & preprocessing.OneHotEncoder, \\ 
-	& & compose.make\_column\_transformer, \\ 
-	& & cluster.KMeans or cluster.DBSCAN \\ \addlinespace
-	Statsmodels & Estimating statistical models, conducting tests, and exploring data. & tsa.arima.model.ARIMA \\
-\end{longtable}
-
-To ensure reproducibility and avoid conflicts with system-wide settings, Miniconda was used to manage the development environment.
-
-Within Miniconda, a dedicated environment named \texttt{etl\_eda\_ml} was created. All core packages were installed through the Conda package manager. Additionally, to enable Excel, CSV, and ODS file support in \textit{polars}, the \textit{fastexcel} engine was installed via the \texttt{conda-forge} channel.
-
-The analysis were implemented in Jupyter notebooks with the specified Conda environment.
-
-When Polars encountered bottlenecks, Apache Spark was used to select variables by dropping unnecessary ones and transforming the remaining data in parquet. This approach reduces the total data volume, allowing Polars to load the remaining data much faster.
-
 \subsection{Datasets}
 
 The selected datasets were the \textit{Predicted Populations of Brazil (2000-2070)}, made and shared by the Brazilian Census Office (BCO)\footnote{\url{https://www.ibge.gov.br/estatisticas/sociais/populacao/9109-projecao-da-populacao.html}}, and the \textit{Military Servive}, made and shared by the Brazilian Army (BA).\footnote{\url{https://dados.gov.br/dados/conjuntos-dados/servico-militar}}
@@ -52,6 +9,10 @@ The selected datasets were the \textit{Predicted Populations of Brazil (2000-207
 The Government data is published on the Brazilian Government Open Data Portal. The portal was institutionalized by the Presidential Decree no. 8.777/2016.\footnote{\url{https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8777.htm}}
 
 The military data includes 18 CSV files, whose total data volume is 4,9 GB. As Polars was slow to load them, Apacha Spark was used. The total number of columns was 22. 15 were selected. The reduction of the number of columns was, more or less, 40,91\%. 
+
+The columns are:
+
+The selected columns are:
 
 The next step was turn the military data into parquet. 4,9 GB of data were reduced to X MB. X parquet files were created. They weight X MB. In other words, the GB data was reduced X\%. As the new transformed data is only X\% of the original data, Polars can handle it.
 
