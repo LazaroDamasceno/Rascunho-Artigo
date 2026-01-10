@@ -4,15 +4,15 @@
 
 \subsection{Datasets}
 
-The selected datasets were the \textit{Predicted Populations of Brazil (2000-2070)}, made and shared by the Brazilian Census Office (BCO)\footnote{\url{https://www.ibge.gov.br/estatisticas/sociais/populacao/9109-projecao-da-populacao.html}}, and the \textit{Military Servive}, made and shared by the Brazilian Army (BA).\footnote{\url{https://dados.gov.br/dados/conjuntos-dados/servico-militar}}
+The selected datasets were the \textit{Predicted Populations of Brazil (2000-2070)}, provided by the Brazilian Census Office (BCO)\footnote{\url{https://www.ibge.gov.br/estatisticas/sociais/populacao/9109-projecao-da-populacao.html}}, and the \textit{Military Servive}, provided by the Brazilian Army (BA).\footnote{\url{https://dados.gov.br/dados/conjuntos-dados/servico-militar}}
 
 The Government data is published on the Brazilian Government Open Data Portal. The portal was institutionalized by the Presidential Decree no. 8.777/2016.\footnote{\url{https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8777.htm}}
 
-The military data includes 18 CSV files, whose total data volume is 4,9 GB. As Polars was slow to load them, Apacha Spark was used. The total number of columns was 22. 15 were selected. The reduction of the number of columns was, more or less, 40,91\%. 
+The military data includes 18 CSV files, whose total data volume is 4.9 GB. As Polars was slow to load them, Apacha Spark was used. The total number of columns was 22. 15 were selected. The reduction of the number of columns was, more or less, 40.91\%. 
 
 The columns are:
 
 The selected columns are:
 
-The next step was turn the military data into parquet. 4,9 GB of data were reduced to X MB. X parquet files were created. They weight X MB. In other words, the GB data was reduced X\%. As the new transformed data is only X\% of the original data, Polars can handle it.
+The next step was turn the military data into parquet. 4.9 GB of data were reduced to X MB. X parquet files were created. They weight X MB. In other words, the GB data was reduced X\%. As the new transformed data is only X\% of the original data, Polars can handle it.
 
