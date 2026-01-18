@@ -21,21 +21,18 @@
   \datalist[entry]{apa/apasortcite//global/global/global}
     \entry{brasil_servico_militar}{misc}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=19accb959d2eb72f4073c85713306ffd}{%
-           family={{Exército Brasileiro}},
+        {{un=0,uniquepart=base,hash=345e675f845309645d417f3544d9fa5a}{%
+           family={{EB}},
            familyi={E\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Portal Brasileiro de Dados Abertos}%
-      }
-      \strng{namehash}{19accb959d2eb72f4073c85713306ffd}
-      \strng{fullhash}{19accb959d2eb72f4073c85713306ffd}
-      \strng{fullhashraw}{19accb959d2eb72f4073c85713306ffd}
-      \strng{bibnamehash}{19accb959d2eb72f4073c85713306ffd}
-      \strng{authorbibnamehash}{19accb959d2eb72f4073c85713306ffd}
-      \strng{authornamehash}{19accb959d2eb72f4073c85713306ffd}
-      \strng{authorfullhash}{19accb959d2eb72f4073c85713306ffd}
-      \strng{authorfullhashraw}{19accb959d2eb72f4073c85713306ffd}
+      \strng{namehash}{345e675f845309645d417f3544d9fa5a}
+      \strng{fullhash}{345e675f845309645d417f3544d9fa5a}
+      \strng{fullhashraw}{345e675f845309645d417f3544d9fa5a}
+      \strng{bibnamehash}{345e675f845309645d417f3544d9fa5a}
+      \strng{authorbibnamehash}{345e675f845309645d417f3544d9fa5a}
+      \strng{authornamehash}{345e675f845309645d417f3544d9fa5a}
+      \strng{authorfullhash}{345e675f845309645d417f3544d9fa5a}
+      \strng{authorfullhashraw}{345e675f845309645d417f3544d9fa5a}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -57,21 +54,18 @@
   \datalist[entry]{apa/global//global/global/global}
     \entry{brasil_servico_militar}{misc}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=19accb959d2eb72f4073c85713306ffd}{%
-           family={{Exército Brasileiro}},
+        {{un=0,uniquepart=base,hash=345e675f845309645d417f3544d9fa5a}{%
+           family={{EB}},
            familyi={E\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Portal Brasileiro de Dados Abertos}%
-      }
-      \strng{namehash}{19accb959d2eb72f4073c85713306ffd}
-      \strng{fullhash}{19accb959d2eb72f4073c85713306ffd}
-      \strng{fullhashraw}{19accb959d2eb72f4073c85713306ffd}
-      \strng{bibnamehash}{19accb959d2eb72f4073c85713306ffd}
-      \strng{authorbibnamehash}{19accb959d2eb72f4073c85713306ffd}
-      \strng{authornamehash}{19accb959d2eb72f4073c85713306ffd}
-      \strng{authorfullhash}{19accb959d2eb72f4073c85713306ffd}
-      \strng{authorfullhashraw}{19accb959d2eb72f4073c85713306ffd}
+      \strng{namehash}{345e675f845309645d417f3544d9fa5a}
+      \strng{fullhash}{345e675f845309645d417f3544d9fa5a}
+      \strng{fullhashraw}{345e675f845309645d417f3544d9fa5a}
+      \strng{bibnamehash}{345e675f845309645d417f3544d9fa5a}
+      \strng{authorbibnamehash}{345e675f845309645d417f3544d9fa5a}
+      \strng{authornamehash}{345e675f845309645d417f3544d9fa5a}
+      \strng{authorfullhash}{345e675f845309645d417f3544d9fa5a}
+      \strng{authorfullhashraw}{345e675f845309645d417f3544d9fa5a}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}

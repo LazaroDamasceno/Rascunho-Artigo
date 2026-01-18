@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.17)  18 JAN 2026 03:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.18)  18 JAN 2026 05:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -498,7 +498,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip65
 \blx@bcfin=\read3
 \blx@bcfout=\write3
-\blx@langwohyphens=\language1
+\blx@langwohyphens=\language79
 \c@mincomprange=\count362
 \c@maxcomprange=\count363
 \c@mincompwidth=\count364
@@ -921,7 +921,7 @@ on input line 2076.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
 on input line 2101.
 \U@D=\dimen269
-\l@unhyphenated=\language2
+\l@unhyphenated=\language80
 
 (/home/lazdam/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read4
@@ -944,16 +944,11 @@ Package babel Info: Importing font and identification data for brazilian
 
 (/home/lazdam/.miktex/texmfs/install/tex/latex/babel-portuges/brazilian.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
-
-
-Package babel Warning: No hyphenation patterns were preloaded for
-(babel)                the language 'Portuguese' into the format.
-(babel)                Please, configure your TeX system to add them and
-(babel)                rebuild the format. Now I will use the patterns
-(babel)                preloaded for \language=0 instead on input line 53.
-
+Package babel Info: Hyphen rules for 'brazilian' set to \l@portuguese
+(babel)             (\language56). Reported on input line 111.
 Package babel Info: Making " an active character on input line 143.
-)) (/home/lazdam/.miktex/texmfs/install/tex/latex/csquotes/csquotes.sty
+))
+(/home/lazdam/.miktex/texmfs/install/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
 \csq@reset=\count473
 \csq@gtype=\count474
@@ -1258,71 +1253,65 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 {/home/lazdam/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/lazdam/.mi
 ktex/texmfs/install/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 23.
+(Font)              scaled to size 12.0pt on input line 29.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 26.
+(Font)              scaled to size 12.0pt on input line 32.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 8.8pt on input line 26.
+(Font)              scaled to size 8.8pt on input line 32.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 26.
+(Font)              scaled to size 6.6pt on input line 32.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 12.0pt on input line 26.
+(Font)              scaled to size 12.0pt on input line 32.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 8.8pt on input line 26.
+(Font)              scaled to size 8.8pt on input line 32.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 6.6pt on input line 26.
+(Font)              scaled to size 6.6pt on input line 32.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 12.0pt on input line 26.
+(Font)              scaled to size 12.0pt on input line 32.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 8.8pt on input line 26.
+(Font)              scaled to size 8.8pt on input line 32.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.6pt on input line 26.
+(Font)              scaled to size 6.6pt on input line 32.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 26.
+(Font)              scaled to size 12.0pt on input line 32.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 8.8pt on input line 26.
+(Font)              scaled to size 8.8pt on input line 32.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 26.
+(Font)              scaled to size 6.6pt on input line 32.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 12.0pt on input line 26.
+(Font)              scaled to size 12.0pt on input line 32.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 8.8pt on input line 26.
+(Font)              scaled to size 8.8pt on input line 32.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.6pt on input line 26.
+(Font)              scaled to size 6.6pt on input line 32.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 12.0pt on input line 26.
+(Font)              scaled to size 12.0pt on input line 32.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 8.8pt on input line 26.
+(Font)              scaled to size 8.8pt on input line 32.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.6pt on input line 26.
+(Font)              scaled to size 6.6pt on input line 32.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 12.0pt on input line 26.
+(Font)              scaled to size 12.0pt on input line 32.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 8.8pt on input line 26.
+(Font)              scaled to size 8.8pt on input line 32.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.6pt on input line 26.
+(Font)              scaled to size 6.6pt on input line 32.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 12.0pt on input line 26.
+(Font)              scaled to size 12.0pt on input line 32.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 8.8pt on input line 26.
+(Font)              scaled to size 8.8pt on input line 32.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.6pt on input line 26.
+(Font)              scaled to size 6.6pt on input line 32.
 
-Overfull \hbox (26.83148pt too wide) in paragraph at lines 26--27
-[]\T1/ntxtlf/m/n/12 O conjunto de dados do EB consta na URL []$https : / / dado
-s . gov . br / dados / conjuntos-[]dados /
+Overfull \hbox (26.83148pt too wide) in paragraph at lines 32--33
+[]\T1/ntxtlf/m/n/12 O con-junto de da-dos do EB consta na URL []$https : / / da
+dos . gov . br / dados / conjuntos-[]dados /
  []
 
 
-Overfull \hbox (42.77112pt too wide) in paragraph at lines 30--31
-\T1/ntxtlf/m/n/12 documento consta na URL []$https : / / dadosabertos . eb . mi
-l . br / arquivos / sermil / dicionario-[]dados-[]sermil .
- []
-
-
-Overfull \hbox (26.5139pt too wide) in paragraph at lines 36--37
-[]\T1/ntxtlf/m/n/12 Os códigos de todas as análises constam na URL []$https : /
- / github . com / LazaroDamasceno /
+Overfull \hbox (42.77112pt too wide) in paragraph at lines 36--37
+\T1/ntxtlf/m/n/12 do-cu-mento consta na URL []$https : / / dadosabertos . eb . 
+mil . br / arquivos / sermil / dicionario-[]dados-[]sermil .
  []
 
 
@@ -1333,9 +1322,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 85.
+Overfull \hbox (26.5139pt too wide) in paragraph at lines 42--43
+[]\T1/ntxtlf/m/n/12 Os có-di-gos de to-das as aná-li-ses cons-tam na URL []$htt
+ps : / / github . com / LazaroDamasceno /
+ []
 
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 91.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1343,19 +1336,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3{/home/lazdam/.miktex/texmfs/install/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]
-Overfull \hbox (39.91093pt too wide) in paragraph at lines 98--99
-\T1/ntxtlf/m/n/12 transformadas de String para Int16, concomitantemente, UF_NAS
-CIMENTO e UF_RESIDENCIA
+[3]
+Overfull \hbox (39.91093pt too wide) in paragraph at lines 104--105
+\T1/ntxtlf/m/n/12 trans-for-ma-das de String para Int16, con-co-mi-tan-te-mente
+, UF_NASCIMENTO e UF_RESIDENCIA
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
-e 106.
+e 112.
 (/home/lazdam/.miktex/texmfs/install/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 106.
+(Font)              scaled to size 12.0pt on input line 112.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1364,28 +1357,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4{/home/lazdam/.miktex/texmfs/install/fonts/enc/dvips/tex-gyre/q-ts1.enc}])
-(discurcao.tex
-<../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/historico_al
-istados_convocados_dispensados.png, id=110, 714.7503pt x 353.1594pt>
-File: ../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/histori
-co_alistados_convocados_dispensados.png Graphic file (type png)
-<use ../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/historic
-o_alistados_convocados_dispensados.png>
-Package pdftex.def Info: ../analise_dados/eb_servico_militar/figuras/pt/analise
-_univariada/historico_alistados_convocados_dispensados.png  used on input line 
-10.
-(pdftex.def)             Requested size: 426.79135pt x 210.88417pt.
-<../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/historico_gr
-au_educacional_alistados.png, id=113, 714.7503pt x 353.1594pt>
-File: ../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/histori
-co_grau_educacional_alistados.png Graphic file (type png)
-<use ../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/historic
-o_grau_educacional_alistados.png>
-Package pdftex.def Info: ../analise_dados/eb_servico_militar/figuras/pt/analise
-_univariada/historico_grau_educacional_alistados.png  used on input line 18.
-(pdftex.def)             Requested size: 426.79135pt x 210.88417pt.
-
+[4{/home/lazdam/.miktex/texmfs/install/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/
+home/lazdam/.miktex/texmfs/install/fonts/enc/dvips/tex-gyre/q-ts1.enc}])
+(discurcao.tex) (resultados.tex) (conclusao.tex)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1393,80 +1367,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5 <../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/historico
-_alistados_convocados_dispensados.png>]
-<../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/historico_na
-scimento_residencia_por_granderegiao_por_ano.png, id=123, 714.9912pt x 353.4003
-pt>
-File: ../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/histori
-co_nascimento_residencia_por_granderegiao_por_ano.png Graphic file (type png)
-<use ../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/historic
-o_nascimento_residencia_por_granderegiao_por_ano.png>
-Package pdftex.def Info: ../analise_dados/eb_servico_militar/figuras/pt/analise
-_univariada/historico_nascimento_residencia_por_granderegiao_por_ano.png  used 
-on input line 26.
-(pdftex.def)             Requested size: 426.79135pt x 210.95253pt.
-<../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/historico_qt
-d_alistados_por_ano.png, id=125, 714.7503pt x 352.9185pt>
-File: ../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/histori
-co_qtd_alistados_por_ano.png Graphic file (type png)
-<use ../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/historic
-o_qtd_alistados_por_ano.png>
-Package pdftex.def Info: ../analise_dados/eb_servico_militar/figuras/pt/analise
-_univariada/historico_qtd_alistados_por_ano.png  used on input line 34.
-(pdftex.def)             Requested size: 426.79135pt x 210.74033pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[6 <../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/historico
-_grau_educacional_alistados.png> <../analise_dados/eb_servico_militar/figuras/p
-t/analise_univariada/historico_nascimento_residencia_por_granderegiao_por_ano.p
-ng>]
-<../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/historico_qt
-d_alistados_por_granderegiao.png, id=135, 714.9912pt x 353.4003pt>
-File: ../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/histori
-co_qtd_alistados_por_granderegiao.png Graphic file (type png)
-<use ../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/historic
-o_qtd_alistados_por_granderegiao.png>
-Package pdftex.def Info: ../analise_dados/eb_servico_militar/figuras/pt/analise
-_univariada/historico_qtd_alistados_por_granderegiao.png  used on input line 42
-.
-(pdftex.def)             Requested size: 426.79135pt x 210.95253pt.
-<../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/historico_zo
-na_residencial_alistados.png, id=137, 714.5094pt x 353.1594pt>
-File: ../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/histori
-co_zona_residencial_alistados.png Graphic file (type png)
-<use ../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/historic
-o_zona_residencial_alistados.png>
-Package pdftex.def Info: ../analise_dados/eb_servico_militar/figuras/pt/analise
-_univariada/historico_zona_residencial_alistados.png  used on input line 50.
-(pdftex.def)             Requested size: 426.79135pt x 210.94882pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[7 <../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/historico
-_qtd_alistados_por_ano.png> <../analise_dados/eb_servico_militar/figuras/pt/ana
-lise_univariada/historico_qtd_alistados_por_granderegiao.png>]) (resultados.tex
-) (conclusao.tex)
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[8 <../analise_dados/eb_servico_militar/figuras/pt/analise_univariada/historico
-_zona_residencial_alistados.png>]
+[5]
 \openout2 = `escolaridade.aux'.
 
  (escolaridade.tex
@@ -1480,7 +1381,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9
+[6
 
 ]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
@@ -1504,32 +1405,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10] (main.aux (escolaridade.aux))
+[7] (main.aux (escolaridade.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D7C8BE69BCA431BE077A0CF432E0760B;2851.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 1DD397F8927F05E68C3D81B752577751;3111
+(rerunfilecheck)             After:  A8F331B2F5F47DDAD977FF80DC4E0D0C;2939.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31520 strings out of 469808
- 553616 string characters out of 5470311
- 1658892 words of memory out of 5000000
- 59651 multiletter control sequences out of 15000+600000
+ 31429 strings out of 467872
+ 545494 string characters out of 5422769
+ 1663543 words of memory out of 5000000
+ 59810 multiletter control sequences out of 15000+600000
  686351 words of font info for 106 fonts, out of 8000000 for 9000
- 0 hyphenation exceptions out of 8191
- 74i,12n,79p,695b,2893s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/lazdam/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qtmr.pfb></h
-ome/lazdam/.miktex/texmfs/install/fonts/type1/public/txfonts/t1xtt.pfb></home/l
-azdam/.miktex/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></home/lazdam/.m
-iktex/texmfs/install/fonts/type1/public/newtx/ztmr.pfb>
-Output written on main.pdf (10 pages, 1059970 bytes).
+ 1141 hyphenation exceptions out of 8191
+ 74i,11n,79p,695b,2893s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{subsection.4.4} has been referenced but does not ex
+ist, replaced by a fixed one
+
+</home/lazdam/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qtmr.pfb></hom
+e/lazdam/.miktex/texmfs/install/fonts/type1/public/txfonts/t1xtt.pfb></home/laz
+dam/.miktex/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></home/lazdam/.mik
+tex/texmfs/install/fonts/type1/public/newtx/ztmr.pfb>
+Output written on main.pdf (7 pages, 149804 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
- 70 named destinations out of 1000 (max. 500000)
- 167 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 205 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 

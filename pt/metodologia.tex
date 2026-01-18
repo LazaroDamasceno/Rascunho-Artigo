@@ -7,13 +7,19 @@ Esta seção é divida em duas subseções. A subseção \ref{python_ds_ml} deta
 
 Python foi escolhida como a linguagem de programação a ser usada para analisar os dados do serviço militar do EB e das projeções populacionais do IBGE.
 
-As bibliotecas de Python usadas foram polars, matplotlib e scikit-learn. A escolha do polars ao invés do pandas foi motivada pela  sua API moderna construída com Rust do polars. Essa tem um poder de processamento de dados mais potente do que o tradicional pandas.
+As bibliotecas de Python usadas foram pandas, polars, matplotlib, scikit-learn, geopandas e cartopy. A escolha do polars ao invés do pandas foi motivada pela  sua API moderna construída com Rust do polars. Essa tem um poder de processamento de dados mais potente do que o tradicional pandas.
+
+[FALAR DO PANDAS]
 
 Outro ponto forte do polars é sua abordagem funcional associada a seu lazy evaluation. O conjunto é ideal, pois torna possível executar comandas diferentes em uma estrutura encadeada sem os problemas de lentidão associados ao eager evaluation para conjuntos de dados grandes. 
 
-O matplotlib foi usado para a geração e customização das figuras. A biblioteca define o tamanho das figuras pela largura e altura, respectivamente, em polegadas. Um polegada equivale a 2,54 cm. O tamanho padrão das figuras é 10x5 polegadas. Caso seja necessário usar outro tamanho, ele será adotado.
+O matplotlib foi usado para a geração e customização das figuras no nível do eixo. A biblioteca define o tamanho das figuras pela largura e altura, respectivamente, em polegadas. Um polegada equivale a 2,54 cm. O tamanho padrão das figuras é 10x5 polegadas. Caso seja necessário usar outro tamanho, ele será adotado.
 
 O scikit-learn será usada na adaptação dos dados para o aprendizado de máquina e a posteriori modelagem baseada no modelo escolhido por ser o mais adequado.
+ 
+ [FALAR DO GEOPANDAS]
+ 
+ [FALAR DO CARTOPY]
  
 \subsection{Conjuntos de dados}
 \label{metodologia_conj_dados}
