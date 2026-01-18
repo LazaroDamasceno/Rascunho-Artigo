@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.17)  18 JAN 2026 01:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.17)  18 JAN 2026 02:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1257,68 +1257,70 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 
 {/home/lazdam/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/lazdam/.mi
 ktex/texmfs/install/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}]
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 23.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 21.
+(Font)              scaled to size 12.0pt on input line 26.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 8.8pt on input line 21.
+(Font)              scaled to size 8.8pt on input line 26.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 21.
+(Font)              scaled to size 6.6pt on input line 26.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 12.0pt on input line 21.
+(Font)              scaled to size 12.0pt on input line 26.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 8.8pt on input line 21.
+(Font)              scaled to size 8.8pt on input line 26.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 6.6pt on input line 21.
+(Font)              scaled to size 6.6pt on input line 26.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 12.0pt on input line 21.
+(Font)              scaled to size 12.0pt on input line 26.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 8.8pt on input line 21.
+(Font)              scaled to size 8.8pt on input line 26.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.6pt on input line 21.
+(Font)              scaled to size 6.6pt on input line 26.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 21.
+(Font)              scaled to size 12.0pt on input line 26.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 8.8pt on input line 21.
+(Font)              scaled to size 8.8pt on input line 26.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 21.
+(Font)              scaled to size 6.6pt on input line 26.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 12.0pt on input line 21.
+(Font)              scaled to size 12.0pt on input line 26.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 8.8pt on input line 21.
+(Font)              scaled to size 8.8pt on input line 26.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.6pt on input line 21.
+(Font)              scaled to size 6.6pt on input line 26.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 12.0pt on input line 21.
+(Font)              scaled to size 12.0pt on input line 26.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 8.8pt on input line 21.
+(Font)              scaled to size 8.8pt on input line 26.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.6pt on input line 21.
+(Font)              scaled to size 6.6pt on input line 26.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 12.0pt on input line 21.
+(Font)              scaled to size 12.0pt on input line 26.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 8.8pt on input line 21.
+(Font)              scaled to size 8.8pt on input line 26.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.6pt on input line 21.
+(Font)              scaled to size 6.6pt on input line 26.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 12.0pt on input line 21.
+(Font)              scaled to size 12.0pt on input line 26.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 8.8pt on input line 21.
+(Font)              scaled to size 8.8pt on input line 26.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.6pt on input line 21.
+(Font)              scaled to size 6.6pt on input line 26.
 
-Overfull \hbox (26.83148pt too wide) in paragraph at lines 21--22
+Overfull \hbox (26.83148pt too wide) in paragraph at lines 26--27
 []\T1/ntxtlf/m/n/12 O conjunto de dados do EB consta na URL []$https : / / dado
 s . gov . br / dados / conjuntos-[]dados /
  []
 
 
-Overfull \hbox (42.77112pt too wide) in paragraph at lines 25--26
+Overfull \hbox (42.77112pt too wide) in paragraph at lines 30--31
 \T1/ntxtlf/m/n/12 documento consta na URL []$https : / / dadosabertos . eb . mi
 l . br / arquivos / sermil / dicionario-[]dados-[]sermil .
  []
 
 
-Overfull \hbox (26.5139pt too wide) in paragraph at lines 31--32
+Overfull \hbox (26.5139pt too wide) in paragraph at lines 36--37
 []\T1/ntxtlf/m/n/12 Os códigos de todas as análises constam na URL []$https : /
  / github . com / LazaroDamasceno /
  []
@@ -1331,8 +1333,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 85.
+
+
+LaTeX Warning: Citation 'brasil_servico_militar' on page 3 undefined on input l
+ine 85.
+
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 40.
+(Font)              scaled to size 10.0pt on input line 85.
+
+LaTeX Warning: Citation '' on page 3 undefined on input line 85.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1342,18 +1353,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3{/home/lazdam/.miktex/texmfs/install/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]
-Overfull \hbox (39.91093pt too wide) in paragraph at lines 89--90
+Overfull \hbox (39.91093pt too wide) in paragraph at lines 98--99
 \T1/ntxtlf/m/n/12 transformadas de String para Int16, concomitantemente, UF_NAS
 CIMENTO e UF_RESIDENCIA
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
-e 97.
+e 106.
 (/home/lazdam/.miktex/texmfs/install/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 97.
+(Font)              scaled to size 12.0pt on input line 106.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1378,6 +1389,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout2 = `escolaridade.aux'.
 
  (escolaridade.tex
+
+LaTeX Warning: Citation 'brasil_servico_militar' on page 6 undefined on input l
+ine 55.
+
+
+LaTeX Warning: Citation '' on page 6 undefined on input line 55.
+
 (/home/lazdam/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
@@ -1392,27 +1410,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 55.
+nput line 59.
 LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 
-55.
+59.
  (/home/lazdam/.miktex/texmfs/install/tex/latex/newtx/t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 55.
+(Font)              scaled to size 12.0pt on input line 59.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.95pt on input line 55.
+(Font)              scaled to size 10.95pt on input line 59.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 56.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 97.
+(Font)              scaled to size 6.0pt on input line 60.
 
 
 LaTeX Warning: Citation 'brasil_servico_militar' on page 7 undefined on input l
-ine 97.
+ine 94.
 
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 97.
+
+LaTeX Warning: Citation '' on page 7 undefined on input line 94.
+
 )
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1431,7 +1448,7 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 40FA098BF2D5AB277BE1A51B805889D3;2510.
+(rerunfilecheck)             Checksum: D7C8BE69BCA431BE077A0CF432E0760B;2851.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1442,20 +1459,20 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31394 strings out of 469808
- 544326 string characters out of 5470311
- 1665928 words of memory out of 5000000
- 59532 multiletter control sequences out of 15000+600000
+ 31390 strings out of 469808
+ 544332 string characters out of 5470311
+ 1658950 words of memory out of 5000000
+ 59534 multiletter control sequences out of 15000+600000
  689218 words of font info for 107 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 74i,11n,79p,695b,2893s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,12n,79p,695b,2893s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/lazdam/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qtmr.pfb></h
 ome/lazdam/.miktex/texmfs/install/fonts/type1/public/txfonts/t1xtt.pfb></home/l
 azdam/.miktex/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></home/lazdam/.m
 iktex/texmfs/install/fonts/type1/public/newtx/ztmr.pfb>
-Output written on main.pdf (7 pages, 147727 bytes).
+Output written on main.pdf (7 pages, 147057 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 65 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 193 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 

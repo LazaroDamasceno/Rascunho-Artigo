@@ -18,6 +18,11 @@ O scikit-learn será usada na adaptação dos dados para o aprendizado de máqui
 \subsection{Conjuntos de dados}
 \label{metodologia_conj_dados}
 
+A subseção será dividida em duas sub-subseções. A sub-subseção \ref{metodologia_conj_dados_sermil} tratará dos dados do serviço militar; já a \ref{metodologia_conj_dados_ibge} tratará dos dados das projeções populacionais.
+
+\subsubsection{Serviço militar}
+\label{metodologia_conj_dados_sermil}
+
 O conjunto de dados do EB consta na URL \url{{https://dados.gov.br/dados/conjuntos-dados/servico-militar}}. Até 17/01/2026, são 18 arquivos em CSV. O ínicio da série histórica começa em 2007 e termina em 2024. O arquivo em CSV com os dados do serviço militar de 2025 ainda não foram adicionados pelo EB.
 
 Dos dados existentes, eles totalizam 4,9 GB. Para que pudessem ser usados com polars, foram transferidos para a plataforma Databricks, que lida com Big Data. Nela, foram transformados em arquivos do tipo Parquet, cujo tamanho total é 165,1 MB. A redução foi de 96,7\%.
@@ -75,6 +80,10 @@ A tabela \ref{tab:nulos_ano} detalha por ano a quantidade de valores nulos das c
 	2023 & 56.78 & 56.78 & 0.0  \\
 	2024 & 0.0   & 0.0   & 0.0  \\
 \end{longtable}
+\vspace{-1cm} 
+\begin{center}
+	{\footnotesize Fonte: elaboração baseada em \textcite{brasil_servico_militar}.}
+\end{center}
 
 Como exposto pela tabela \ref{tab:nulos_ano}, os valores nulos por ano das colunas PESO e ALTURA representam massivamente a quantidade total dos dados anuais. Neste sentido, foram removidas.
 
@@ -98,37 +107,7 @@ A próxima coluna a ser tratada é ESTADO\_CIVIL. Ela contém os seguintes valor
 
 Adicionalmente, a inconsistência "ViÃºvo" foi renomeada para "Viúvo". Os valores "Separado Judicialmente" e "Desquitado" foram renomeados como "Divorciado", pois legalmente são divorciados.
 
-A tabela \ref{tab:qtd_status_civis} mostra a quantidade percentual dos status civis dos alistados.
-
-\begin{longtable}{cc}
-	\caption{Quantidade dos status civis dos alistados} \label{tab:qtd_status_civis} \\
-	\toprule
-	\textbf{Estado civil} & \textbf{Quantidade (\%)} \\
-	\midrule
-	\endfirsthead
-	
-	\multicolumn{2}{c}%
-	{{\bfseries \tablename\ \thetable{} -- Continuação da página anterior}} \\
-	\toprule
-	\textbf{Estado civil} & \textbf{Quantidade (\%)} \\
-	\midrule
-	\endhead
-	
-	\midrule
-	\multicolumn{2}{r}{{Continua na próxima página...}} \\
-	\bottomrule
-	\endfoot
-	
-	\bottomrule
-	\endlastfoot
-	
-	Solteiro & 97,55  \\
-	Casado & 1,4  \\
-	Divorciado & 0,18 \\
-	Viúvo	& 0,01 \\
-\end{longtable}
-
-Conforme mostra a tabela \ref{tab:qtd_status_civis}, a quantidade de alistados que são solteiro é a quase a totalidade, de modo que os demais estados civis representam apenas 2,45\% do total. Como consequência, apenas os alistados solteiros foram selecionados e coluna ESTADO\_CIVIL foi removida. A quantidade de linhas foi reduzida para 25.298.928.
+Como a quantidade de alistados solteiros é 97,55\% e os demais representam insignificantemente 2,45\% to total, apenas os alistados solteiros foram selecionados e coluna ESTADO\_CIVIL foi removida. A quantidade de linhas foi reduzida para 25.298.928.
 
 A próxima coluna a ser tratada é a SEXO. Ela contém apenas "M" para os homens e "F" para as mulheres. Como 99,95\% dos alistados são homens e as mulheres representam o valor insignificante de 0,05\%, apenas os homens foram escolhidos. Assim, a coluna SEXO foi removido. A quantidade de linhas foi reduzida para 25.287.523.
 
@@ -136,9 +115,11 @@ Para a coluna ZONA\_RESIDENCIAL, que contém apenas os valores "Rural" e "Urbano
 
 A última coluna a ser tratada é ESCOLARIDADE. Os graus de escolaridade, como constam no dataframe, estão listados na tabela \ref{tab:escolaridade}. As inconsistências foram corrigidas e o texto está correto.
 
-Conforme demonstrado no listing \ref{lst:processamento_escolaridade}, cada grau escolar foi ava
+Conforme demonstrado no listing \ref{lst:processamento_escolaridade}, cada grau escolar foi avaliado para checar de qual grupo de graus de escolaridade está incluso. Cada rótulo passou a ser parte de uma nova coluna chamada de grau\_educacional, o que levou para a remoção da coluna ESCOLARIDADE.
 
 Com todas as colunas tratadas, os títulos delas foram uniformizados, pois o que estavam em maiúsculo foram transformados em títulos minúsculos. Como resultado, a etapa de ETL e data wrangling foi encerrada.
 
 Os detalhes da etapa da análise exploratória e do aprendizado de máquina serão discutidas na seção \ref{discussao}.
 
+\subsubsection{Projeções populacionais}
+\label{metodologia_conj_dados_ibge}

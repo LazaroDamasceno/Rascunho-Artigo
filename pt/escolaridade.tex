@@ -50,6 +50,10 @@
 	& Doutorado \\
 	& Pós-Doutorado \\
 \end{longtable}
+\vspace{-1cm} 
+\begin{center}
+	{\footnotesize Fonte: elaboração baseada em \textcite{brasil_servico_militar}.}
+\end{center}
 
 
 \begin{lstlisting}[language=Python, caption={Recategorização de Nível Educacional}, label={lst:processamento_escolaridade}]
@@ -65,17 +69,10 @@
 		pl.col('ESCOLARIDADE').str.contains('Ensino Superior')
 	).unique().to_series().to_list()
 	
-	ordem_escolaridade = [
-		'Analfabeto',
-		'Alfabetizado',
-		'Ensino Fundamental',
-		'Ensino Médio',
-		'Graduação',
-		'Pós-Graduação'
-	]
+	ordem_escolaridade = ['Analfabeto', 'Alfabetizado', 'Ensino Fundamental', 'Ensino Médio', 'Graduação', 'Pós-Graduação']
 	
 	df_etl = df_etl.with_columns(
-		nivel_educacional = (
+		grau_educacional = (
 			pl.when(pl.col('ESCOLARIDADE') == 'Analfabeto')
 			.then(pl.lit('Analfabeto'))
 			.when(pl.col('ESCOLARIDADE') == 'Alfabetizado')
@@ -89,10 +86,10 @@
 			.otherwise(pl.lit('Pós-Graduação'))
 	))
 	.with_columns(
-		pl.col('nivel_educacional').cast(pl.Enum(ordem_escolaridade))
+		pl.col('grau_educacional').cast(pl.Enum(ordem_escolaridade))
 	).drop('ESCOLARIDADE')
 \end{lstlisting}
-\vspace{-0.2cm} 
+\vspace{-0.7cm} 
 \begin{center}
-	{\footnotesize Fonte: elaboração baseada em \cite{brasil_servico_militar}.}
+	{\footnotesize Fonte: elaboração baseada em \textcite{brasil_servico_militar}.}
 \end{center}
