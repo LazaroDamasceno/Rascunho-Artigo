@@ -1,4 +1,4 @@
- \documentclass[12pt,a4paper]{article}
+\documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc} 
 \usepackage[T1]{fontenc}        
 \usepackage{newtxtext,newtxmath}
@@ -28,9 +28,6 @@ natbib=true
 \usepackage{chngcntr}
 \usepackage[brazilian]{babel} 
 \usepackage{csquotes}      
-\addbibresource{ref.bib}    
-\usepackage{longtable}
-\usepackage{booktabs}
 \usepackage{listings}
 \usepackage{xcolor}
 \definecolor{codegreen}{rgb}{0,0.6,0}
@@ -44,9 +41,8 @@ natbib=true
 	numberstyle=\tiny\color{codegray},
 	stringstyle=\color{codepurple},
 	basicstyle=\ttfamily\small,
-	breakatwhitespace=false,         
 	breaklines=true,                 
-	captionpos=t, % t = top (cima), b = bottom (baixo)
+	captionpos=t, 
 	keepspaces=true,                 
 	numbers=left,                    
 	numbersep=5pt,                  
@@ -79,7 +75,7 @@ natbib=true
 	\input{discurcao}
 	\input{resultados}
 	\input{conclusao}
-
+	
 	\printbibliography
 	
 	\appendix

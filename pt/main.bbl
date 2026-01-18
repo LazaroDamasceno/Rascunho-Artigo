@@ -1,0 +1,95 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{brasil_servico_militar}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=19accb959d2eb72f4073c85713306ffd}{%
+           family={{Exército Brasileiro}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Portal Brasileiro de Dados Abertos}%
+      }
+      \strng{namehash}{19accb959d2eb72f4073c85713306ffd}
+      \strng{fullhash}{19accb959d2eb72f4073c85713306ffd}
+      \strng{fullhashraw}{19accb959d2eb72f4073c85713306ffd}
+      \strng{bibnamehash}{19accb959d2eb72f4073c85713306ffd}
+      \strng{authorbibnamehash}{19accb959d2eb72f4073c85713306ffd}
+      \strng{authornamehash}{19accb959d2eb72f4073c85713306ffd}
+      \strng{authorfullhash}{19accb959d2eb72f4073c85713306ffd}
+      \strng{authorfullhashraw}{19accb959d2eb72f4073c85713306ffd}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acessado em: 17 jan. 2026}
+      \field{title}{Serviço Militar (2007--2024)}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://dados.gov.br/dados/conjuntos-dados/servico-militar
+      \endverb
+      \verb{url}
+      \verb https://dados.gov.br/dados/conjuntos-dados/servico-militar
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{brasil_servico_militar}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=19accb959d2eb72f4073c85713306ffd}{%
+           family={{Exército Brasileiro}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Portal Brasileiro de Dados Abertos}%
+      }
+      \strng{namehash}{19accb959d2eb72f4073c85713306ffd}
+      \strng{fullhash}{19accb959d2eb72f4073c85713306ffd}
+      \strng{fullhashraw}{19accb959d2eb72f4073c85713306ffd}
+      \strng{bibnamehash}{19accb959d2eb72f4073c85713306ffd}
+      \strng{authorbibnamehash}{19accb959d2eb72f4073c85713306ffd}
+      \strng{authornamehash}{19accb959d2eb72f4073c85713306ffd}
+      \strng{authorfullhash}{19accb959d2eb72f4073c85713306ffd}
+      \strng{authorfullhashraw}{19accb959d2eb72f4073c85713306ffd}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acessado em: 17 jan. 2026}
+      \field{title}{Serviço Militar (2007--2024)}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://dados.gov.br/dados/conjuntos-dados/servico-militar
+      \endverb
+      \verb{url}
+      \verb https://dados.gov.br/dados/conjuntos-dados/servico-militar
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
