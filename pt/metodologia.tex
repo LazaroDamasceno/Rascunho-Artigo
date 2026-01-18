@@ -37,14 +37,14 @@ A tabela \ref{tab:nulos_ano} detalha por ano a quantidade de valores nulos das c
 \begin{longtable}{cccc}
 	\caption{Quantidade de valores nulos por ano e categoria} \label{tab:nulos_ano} \\
 	\toprule
-	\textbf{ANO DO ALISTAMENTO} & \textbf{PESO} & \textbf{ALTURA} & \textbf{DISPENSA} \\
+	\textbf{Ano} & \textbf{Peso} & \textbf{Altura} & \textbf{Dispensa} \\
 	\midrule
 	\endfirsthead
 	
 	\multicolumn{4}{c}%
 	{{\bfseries \tablename\ \thetable{} -- Continuação da página anterior}} \\
 	\toprule
-	\textbf{ANO DO ALISTAMENTO} & \textbf{PESO} & \textbf{ALTURA} & \textbf{DISPENSA} \\
+	\textbf{Ano} & \textbf{Peso} & \textbf{Altura} & \textbf{Dispensa} \\
 	\midrule
 	\endhead
 	
@@ -103,14 +103,14 @@ A tabela \ref{tab:qtd_status_civis} mostra a quantidade percentual dos status ci
 \begin{longtable}{cc}
 	\caption{Quantidade dos status civis dos alistados} \label{tab:qtd_status_civis} \\
 	\toprule
-	\textbf{ESTADO CIVIL} & \textbf{QUANTIDADE (\%)} \\
+	\textbf{Estado civil} & \textbf{Quantidade (\%)} \\
 	\midrule
 	\endfirsthead
 	
 	\multicolumn{2}{c}%
 	{{\bfseries \tablename\ \thetable{} -- Continuação da página anterior}} \\
 	\toprule
-	\textbf{ESTADO CIVIL} & \textbf{QUANTIDADE (\%)} \\
+	\textbf{Estado civil} & \textbf{Quantidade (\%)} \\
 	\midrule
 	\endhead
 	
@@ -132,6 +132,13 @@ Conforme mostra a tabela \ref{tab:qtd_status_civis}, a quantidade de alistados q
 
 A próxima coluna a ser tratada é a SEXO. Ela contém apenas "M" para os homens e "F" para as mulheres. Como 99,95\% dos alistados são homens e as mulheres representam o valor insignificante de 0,05\%, apenas os homens foram escolhidos. Assim, a coluna SEXO foi removido. A quantidade de linhas foi reduzida para 25.287.523.
 
-Para a coluna ZONA\_RESIDENCIAL, que contém apenas os valores "Rural" e "Urbano", descobriu-se que, no geral, 87,89\% dos alistados residem na zona urbana, enquanto 12,11\% vivem na zona rural. Como não havia necessidade de remoção, ZONA\_RESIDENCIAL foi transformada no tipo categórico. 
+Para a coluna ZONA\_RESIDENCIAL, que contém apenas os valores "Rural" e "Urbano", descobriu-se que, no geral, 87,89\% dos alistados residem na zona urbana, enquanto 12,11\% vivem na zona rural. Como não houve necessidade de remoção, ZONA\_RESIDENCIAL foi transformada no tipo categórico. 
 
+A última coluna a ser tratada é ESCOLARIDADE. Os graus de escolaridade, como constam no dataframe, estão listados na tabela \ref{tab:escolaridade}. As inconsistências foram corrigidas e o texto está correto.
+
+Conforme demonstrado no listing \ref{lst:processamento_escolaridade}, cada grau escolar foi ava
+
+Com todas as colunas tratadas, os títulos delas foram uniformizados, pois o que estavam em maiúsculo foram transformados em títulos minúsculos. Como resultado, a etapa de ETL e data wrangling foi encerrada.
+
+Os detalhes da etapa da análise exploratória e do aprendizado de máquina serão discutidas na seção \ref{discussao}.
 

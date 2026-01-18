@@ -1,0 +1,98 @@
+\section{Graus de escolaridade}
+
+\begin{longtable}{ll}
+	\caption{Lista de graus de escolaridade} \label{tab:escolaridade} \\
+	\toprule
+	\textbf{Categoria} & \textbf{Nível de escolaridade} \\
+	\midrule
+	\endfirsthead
+	\multicolumn{2}{c}%
+	{{\bfseries \tablename\ \thetable{} -- Continuação}} \\
+	\toprule
+	\textbf{Categoria} & \textbf{Nível de Escolaridade} \\
+	\midrule
+	\endhead
+	\bottomrule
+	\endfoot
+	\bottomrule
+	\endlastfoot
+	
+	Alfabetização & Analfabeto \\
+	& Alfabetizado \\ \midrule
+	Ensino Fundamental & 1ª Série / 1° Ano \\
+	& 2ª Série / 2° Ano \\
+	& 3ª Série / 3° Ano \\
+	& 4ª Série / 4° Ano \\
+	& 5ª Série / 5° Ano \\
+	& 6ª Série / 6° Ano \\
+	& 7ª Série / 7° Ano \\
+	& 8ª Série / 8° Ano \\
+	& 9ª Série / 9° Ano \\
+	& Ensino Fundamental Completo \\ \midrule
+	Ensino Médio       & 1ª Série / 1° Ano \\
+	& 2ª Série / 2° Ano \\
+	& 3ª Série / 3° Ano \\
+	& 4ª Série / 4° Ano (Profissionalizante) \\
+	& Ensino Médio Completo \\ \midrule
+	Ensino Superior    & 1° Semestre \\
+	& 2° Semestre \\
+	& 3° Semestre \\
+	& 4° Semestre \\
+	& 5° Semestre \\
+	& 6° Semestre \\
+	& 7° Semestre \\
+	& 8° Semestre \\
+	& 9° Semestre \\
+	& 10° Semestre \\
+	& Ensino Superior Completo \\ \midrule
+	Pós-Graduação      & Pós-Graduação \\
+	& Mestrado \\
+	& Doutorado \\
+	& Pós-Doutorado \\
+\end{longtable}
+
+
+\begin{lstlisting}[language=Python, caption={Recategorização de Nível Educacional}, label={lst:processamento_escolaridade}]
+	ensino_fundamental = df_etl.select('ESCOLARIDADE').filter(
+		pl.col('ESCOLARIDADE').str.contains('Ensino Fundamental')
+	).unique().to_series().to_list()
+	
+	ensino_medio = df_etl.select('ESCOLARIDADE').filter(
+		pl.col('ESCOLARIDADE').str.contains('Ensino Médio')
+	).unique().to_series().to_list()
+	
+	graduacao = df_etl.select('ESCOLARIDADE').filter(
+		pl.col('ESCOLARIDADE').str.contains('Ensino Superior')
+	).unique().to_series().to_list()
+	
+	ordem_escolaridade = [
+		'Analfabeto',
+		'Alfabetizado',
+		'Ensino Fundamental',
+		'Ensino Médio',
+		'Graduação',
+		'Pós-Graduação'
+	]
+	
+	df_etl = df_etl.with_columns(
+		nivel_educacional = (
+			pl.when(pl.col('ESCOLARIDADE') == 'Analfabeto')
+			.then(pl.lit('Analfabeto'))
+			.when(pl.col('ESCOLARIDADE') == 'Alfabetizado')
+			.then(pl.lit('Alfabetizado'))
+			.when(pl.col('ESCOLARIDADE').is_in(ensino_fundamental))
+			.then(pl.lit('Ensino Fundamental'))
+			.when(pl.col('ESCOLARIDADE').is_in(ensino_medio))
+			.then(pl.lit('Ensino Médio'))
+			.when(pl.col('ESCOLARIDADE').is_in(graduacao))
+			.then(pl.lit('Graduação'))
+			.otherwise(pl.lit('Pós-Graduação'))
+	))
+	.with_columns(
+		pl.col('nivel_educacional').cast(pl.Enum(ordem_escolaridade))
+	).drop('ESCOLARIDADE')
+\end{lstlisting}
+\vspace{-0.2cm} 
+\begin{center}
+	{\footnotesize Fonte: elaboração baseada em \cite{brasil_servico_militar}.}
+\end{center}
